@@ -1,0 +1,201 @@
+.minh1{
+    font-weight: 500;
+    margin-left: 45%;
+    color:#0f0335
+   }
+  
+   .mini{
+    background: radial-gradient(#fff, #89bcff);
+    height: auto;
+   }
+   
+    
+   .sections-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 20px; /* Space between the sets of sections */
+  }
+  
+    .container {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px; /* Reduced gap between the boxes */
+      margin: 0 10px; /* Small margins on the left and right of the container */
+  }
+  
+  .order-box {
+      display: flex;
+      flex-direction: column;
+      background-color: #eff5f7;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      flex: 1;
+  }
+  
+  .order-box:first-child {
+      margin-left: 10px; /* Small margin on the left of the first box */
+  }
+  
+  .order-box:last-child {
+      margin-right: 10px; /* Small margin on the right of the second box */
+  }
+  
+  .order-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px; /* Space between items */
+  }
+  
+  .order-item:last-child {
+      margin-bottom: 0; /* No space after the last item */
+  }
+  
+  .order-item img {
+      width: 100px;
+      height: 15vh;
+      margin-right: 20px;
+      border-radius: 8px;
+  }
+  
+  .order-details {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  
+  .order-details .item-name {
+      font-size: 15px;
+      font-weight: 200;
+      color: #333;
+  }
+  
+  .order-details .item-price {
+      font-size: 1em;
+      color: #232222;
+  }
+  
+  .quantity-input {
+      display: flex;
+      align-items: center;
+  }
+  
+  .quantity-input label {
+      font-size: 1em;
+      margin-right: 10px;
+  }
+  
+  .quantity-input input {
+      width: 60px;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 1em;
+  }
+  
+  .quantity-input input:focus {
+      outline: none;
+      border-color: #373fae;
+      box-shadow: 0 0 5px rgba(104, 47, 1, 0.25);
+  }
+  
+  .h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    color: #234872;
+  }
+  
+  #Pay {
+    background-color: #7895dd;
+    color: rgb(7, 0, 0);
+    border: none;
+    border-radius: 4px;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    margin-top: 10px;
+    margin-left: 45%;
+    font-size: 18px;
+  }
+  
+  #Pay:hover {
+    background-color: #02062c;
+    color: #fff;
+  }
+  
+  table {
+    width: 85%;
+    margin: auto;
+    border-collapse: collapse;
+    border-radius: 100px;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    color:#14147e;
+  }
+  th {
+    background-color:transparent;
+  }
+  
+  .hr{
+      border: none; 
+      border-top: 1.5px solid rgb(30, 10, 76); 
+      margin: 10px 0;
+      width:100%;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center; /* Centers the buttons horizontally */
+    align-items: center;     /* Centers the buttons vertically (if needed) */
+    gap: 10px;               /* Adjust gap between buttons */
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #a1a2dc;
+    color: rgb(10, 1, 1);
+    cursor: pointer;
+    transition: background-color 1.3s;
+  }
+  
+  .button:hover {
+    background-color: #13044b;
+    color: #fff;
+  }
+  
+  a{
+    color: #fff;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .order-box {
+        margin: 10px 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .order-box {
+        margin: 10px 0;
+    }
+  }
+
+  
